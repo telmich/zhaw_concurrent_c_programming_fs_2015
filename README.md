@@ -9,10 +9,10 @@
 * 2. Zwischenstandsbericht  2015-05-01-2359 CEST
 * Abgabe Arbeiten: Präsentation - 2W
 * Präsentation KW 25/28 (einer von dreien)
-**                          2015-06-17
-**                          2015-06-24
-**                          2015-07-01
-**                          2015-07-08
+ *                          2015-06-17
+ *                          2015-06-24
+ *                          2015-07-01
+ *                          2015-07-08
 
 ## Abgabe 
 
