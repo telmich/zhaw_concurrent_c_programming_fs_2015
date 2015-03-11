@@ -147,7 +147,7 @@ für das selbe Feld sendet, sind alle bis auf der erste nicht erfolgreich.
 ### Besitz anzeigen
 
     Client: STATUS X Y\n
-    Server: NAME1\n
+    Server: Name-des-Spielers\n
 
 
 ### Spielende
@@ -156,7 +156,7 @@ Sobald ein Client alle Felder besitzt wird der Gewinner bekanntgegeben.
 Diese Antwort kann auf jeden Client Befehl kommen,
 mit Ausnahme der Anmeldung kommen.
 
-    Server: END NAME\n
+    Server: END Name-des-Spielers\n
     Client: - (beendet sich)
 
 ## Bedingungen für die Implementation
