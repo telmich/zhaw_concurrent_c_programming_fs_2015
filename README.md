@@ -9,10 +9,10 @@
 * 2. Zwischenstandsbericht  2015-05-01-2359 CEST
 * Abgabe Arbeiten: Präsentation - 2W
 * Präsentation KW 25/28 (einer von dreien)
- *                          2015-06-17
- *                          2015-06-24
- *                          2015-07-01
- *                          2015-07-08
+ * 2015-06-17
+ * 2015-06-24
+ * 2015-07-01
+ * 2015-07-08
 
 ## Abgabe 
 
@@ -26,16 +26,16 @@
 * git repo auf github vorhanden
 * Applikation lauffähig unter Linux
 * Nach "make" Eingabe existiert
-** "server": Binary des Servers
-*** Sollte nicht abstürzen / SEGV auftreten
-** "client": Executable zum Testen des Servers
-** "doc.pdf": Dokumentation - Beispiel für Inhaltsverzeichnis weiter unten
-*** Einleitung
-*** Anleitung zur Nutzung
-*** Weg, Probleme, Lösungen
-*** Fazit
-*** Keine Prosa - sondern guter technischer Bericht
-*** Deutsch oder English möglich
+ * "server": Binary des Servers
+  * Sollte nicht abstürzen / SEGV auftreten
+ * "client": Executable zum Testen des Servers
+ * "doc.pdf": Dokumentation - Beispiel für Inhaltsverzeichnis weiter unten
+  * Einleitung
+  * Anleitung zur Nutzung
+  * Weg, Probleme, Lösungen
+  * Fazit
+  * Keine Prosa - sondern guter technischer Bericht
+  * Deutsch oder English möglich
 
 ## Präsentation
 
@@ -43,9 +43,9 @@
 * 10-15 Minuten + 5 Minuten Fragen
 * Vortrag ist nicht (nur) für den Dozenten
 * Zeigen 
-** was gelernt wurde
-** was Probleme waren
-** wie mit Problemen umgegangen
+ * was gelernt wurde
+ * was Probleme waren
+ * wie mit Problemen umgegangen
 
 ## Lernziele
 
@@ -99,9 +99,9 @@ Die Koordinaten des Spielfeldes sind somit (0..(n-1), 0..(n-1)).
 * Sobald n/2 Spieler verbunden sind, kann jeder Spieler versuchen Felder zu erobern
 * Es können während des Spiels neue Spieler hinzukommen oder Spieler das Spiel verlassen
 * Der Client gibt alle x Sekunden den Status aus, wobei 1 <= x <= 30
-** Welcher Client welche Felder besitzt
+ * Welcher Client welche Felder besitzt
 * Der Server prüft alle y Sekunden den *konsisten Spielfeldstatus* , wobei 1 <= y <= 30
-** Wenn ein Spieler zu diesem Zeitpunkt alle Felder besitzt, hat er gewonnen und das Spiel wird beendet
+ * Wenn ein Spieler zu diesem Zeitpunkt alle Felder besitzt, hat er gewonnen und das Spiel wird beendet
 
 ## Protokoll Allgemein
 
@@ -165,12 +165,12 @@ mit Ausnahme der Anmeldung kommen.
 * Der Server speichert den Namen des Feldbesitzers
 * Kommunikation via TCP/IP (empfohlen)
 * fork + shm (empfohlen)
-** oder pthreads
-** für jede Verbindung einen prozess/thread
-** Hauptthread/prozess kann bind/listen/accept machen
+ * oder pthreads
+ * für jede Verbindung einen prozess/thread
+ * Hauptthread/prozess kann bind/listen/accept machen
 * Fokus liegt auf dem Serverteil
-** Client ist hauptsächlich zum Testen und "Spass haben" da
-** Server wird durch Skript vom Dozent getestet
+ * Client ist hauptsächlich zum Testen und "Spass haben" da
+ * Server wird durch Skript vom Dozent getestet
 * Locking, gleichzeitiger Zugriff im Server lösen
 * Debug-Ausgaben von Client/Server auf stderr
 
