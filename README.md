@@ -2,15 +2,16 @@
 
 ## Termine
 
-* Kick-Off ZL 4.10          2015-03-11
-* Angabe git repositories   2015-03-15-2359 CET
+* Kick-Off ZL 4.10                          2015-03-11-1700 CET
+* Angabe git repositories                   2015-03-15-2359 CET
 ** Via Mail inklusive ZHAW Kürzel
-* EBS-Eintrag               2015-03-20-2359 CET
-* 1. Zwischenstandsbericht  2015-04-01-2359 KST
-* 2. Zwischenstandsbericht  2015-05-01-2359 CEST
-* Abgabe Arbeiten:          2015-06-21-2359 CEST
-* Präsentation KW 25/28 (einer von dreien)
- * 2015-07-01
+* EBS-Eintrag                               2015-03-20-2359 CET
+* 1. Zwischenstandsbericht                  2015-04-01-2359 KST
+* 2. Zwischenstandsbericht                  2015-05-01-2359 CEST
+* Abgabe Arbeiten:                          2015-06-21-2359 CEST
+* Präsentation                              2015-07-01-1700 CEST
+* (nur Dozent) Noteneingabe                 KW 30
+* (nur Dozent) Späteste Abgabe Notenblatt   2015-07-26
 
 ## Abgabe 
 
