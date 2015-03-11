@@ -7,12 +7,9 @@
 * EBS-Eintrag               2015-03-20-2359 CET
 * 1. Zwischenstandsbericht  2015-04-01-2359 KST
 * 2. Zwischenstandsbericht  2015-05-01-2359 CEST
-* Abgabe Arbeiten: Präsentation - 2W
+* Abgabe Arbeiten:          2015-06-21-2359 CEST
 * Präsentation KW 25/28 (einer von dreien)
- * 2015-06-17
- * 2015-06-24
  * 2015-07-01
- * 2015-07-08
 
 ## Abgabe 
 
@@ -40,7 +37,9 @@
 ## Präsentation
 
 * Handout Digital
+** an alle
 * 10-15 Minuten + 5 Minuten Fragen
+** + 5 Minuten Client-Strategie (optional)
 * Vortrag ist nicht (nur) für den Dozenten
 * Zeigen 
  * was gelernt wurde
@@ -98,9 +97,7 @@ Die Koordinaten des Spielfeldes sind somit (0..(n-1), 0..(n-1)).
 * Der Server startet und wartet auf n/2 Spieler
 * Sobald n/2 Spieler verbunden sind, kann jeder Spieler versuchen Felder zu erobern
 * Es können während des Spiels neue Spieler hinzukommen oder Spieler das Spiel verlassen
-* Der Client gibt alle x Sekunden den Status aus, wobei 1 <= x <= 30
- * Welcher Client welche Felder besitzt
-* Der Server prüft alle y Sekunden den *konsisten Spielfeldstatus* , wobei 1 <= y <= 30
+* Der Server prüft alle y Sekunden den *konsistenten Spielfeldstatus* , wobei 1 <= y <= 30
  * Wenn ein Spieler zu diesem Zeitpunkt alle Felder besitzt, hat er gewonnen und das Spiel wird beendet
 
 ## Protokoll Allgemein
@@ -115,7 +112,7 @@ Die Koordinaten des Spielfeldes sind somit (0..(n-1), 0..(n-1)).
 Erfolgreiche Anmeldung:
 
     Client: HELLO\n
-    Server: SIZE X\n
+    Server: SIZE n\n
 
 Nicht erfolgreiche Anmeldung:
 
@@ -124,6 +121,8 @@ Nicht erfolgreiche Anmeldung:
         -> Trennt die Verbindung
 
 ### Spielstart
+
+Der Server wartet auf n/2 Verbindungen vor dem Start.
 
     Server: START\n
     Client: - (erwiedert nichts, weiss das es gestartet hat)
@@ -163,11 +162,12 @@ mit Ausnahme der Anmeldung kommen.
     
 * Es gibt keinen globalen Lock (!)
 * Der Server speichert den Namen des Feldbesitzers
-* Kommunikation via TCP/IP (empfohlen)
+* Kommunikation via TCP/IP
 * fork + shm (empfohlen)
  * oder pthreads
  * für jede Verbindung einen prozess/thread
  * Hauptthread/prozess kann bind/listen/accept machen
+ * Rating Prozess/Thread zusätzlich im Server
 * Fokus liegt auf dem Serverteil
  * Client ist hauptsächlich zum Testen und "Spass haben" da
  * Server wird durch Skript vom Dozent getestet
@@ -178,6 +178,7 @@ mit Ausnahme der Anmeldung kommen.
 ## Tipps
 
     gcc -Wall -Wpedantic -Wextra
+    Optional: valgrind
 
 
 ## Bibliographie
