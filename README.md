@@ -4,6 +4,7 @@
 
 * Kick-Off ZL 4.10          2015-03-11
 * Angabe git repositories   2015-03-15-2359 CET
+** Via Mail inklusive ZHAW Kürzel
 * EBS-Eintrag               2015-03-20-2359 CET
 * 1. Zwischenstandsbericht  2015-04-01-2359 KST
 * 2. Zwischenstandsbericht  2015-05-01-2359 CEST
@@ -22,7 +23,7 @@
 
 * git repo auf github vorhanden
 * Applikation lauffähig unter Linux
-* Nach "make" Eingabe existiert
+* Nach "make" Eingabe existiert (somit auch ein Makefile!)
  * "server": Binary des Servers
   * Sollte nicht abstürzen / SEGV auftreten
  * "client": Executable zum Testen des Servers
@@ -179,6 +180,10 @@ mit Ausnahme der Anmeldung kommen.
 
     gcc -Wall -Wpedantic -Wextra
     Optional: valgrind
+
+* IDE-Möglichkeiten
+** clion
+** vim + gdb + gcc + make
 
 
 ## Bibliographie
