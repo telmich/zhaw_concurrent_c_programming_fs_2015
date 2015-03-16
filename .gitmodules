@@ -1,0 +1,18 @@
+[submodule "code/neukomat"]
+	path = code/neukomat
+	url = https://github.com/mneukom/zhaw_concurrent_c_programming_fs_2015
+[submodule "code/reutisam"]
+	path = code/reutisam
+	url = https://github.com/samfisch3r/zhaw_concurrent_c_programming_fs_2015
+[submodule "code/sachedes"]
+	path = code/sachedes
+	url = https://github.com/d3sre/concurrentC
+[submodule "code/buetikbe"]
+	path = code/buetikbe
+	url = git@github.com:bueti/ccp.git
+[submodule "code/buessmar"]
+	path = code/buessmar
+	url = https://github.com/Baloo81/zhaw_concurrent_c_programming_fs_2015
+[submodule "code/reestob1"]
+	path = code/reestob1
+	url = https://github.com/Reesli/multiplayergame
