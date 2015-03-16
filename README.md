@@ -9,7 +9,7 @@
 * 1. Zwischenstandsbericht                  2015-04-01-2359 KST
 * 2. Zwischenstandsbericht                  2015-05-01-2359 CEST
 * Abgabe Arbeiten:                          2015-06-21-2359 CEST
-* Präsentation                              2015-07-01-1700 CEST
+* Präsentation  ZL O4.10                    2015-07-01-1700 CEST
 * (nur Dozent) Noteneingabe                 KW 30
 * (nur Dozent) Späteste Abgabe Notenblatt   2015-07-26
 
