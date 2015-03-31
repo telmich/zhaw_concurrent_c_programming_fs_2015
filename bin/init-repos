@@ -1,0 +1,1 @@
+mkdir repos; while read student repo ; do git clone $repo repos/$student; done < repo-urls
